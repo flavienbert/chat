@@ -1,0 +1,10 @@
+<div class="well row message" ng-if="type === 'message'">
+  <img class="pull-left gravatar" ng-src="{{gravatar}}">
+  <div>
+    <p><b>[{{date}}] {{nickname}}</b> a dit:</p>
+    <p>{{message}}</p>
+  </div>
+</div>
+<div class="alert alert-warning" ng-if="type === 'nickname'">
+  {{nickname}} a changé de pseudo!
+</div>

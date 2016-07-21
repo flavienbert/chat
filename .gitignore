@@ -1,0 +1,5 @@
+node_modules
+public
+.idea
+angularjs-frontend/node_modules
+angularjs-frontend/.tmp
